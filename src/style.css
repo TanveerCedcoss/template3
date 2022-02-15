@@ -1,0 +1,175 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+#lm {
+  margin-bottom: 15px;
+  padding: 5px;
+}
+
+ul {
+  text-align: right;
+  margin-right: 70px;
+  margin-top: 50px;
+}
+
+li {
+  list-style: none;
+  display: inline;
+  padding: 30px;
+}
+
+h1 {
+  margin-left: 60px;
+}
+
+.big {
+  background-color: lightgray;
+  height: 42%;
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  overflow: hidden;
+}
+
+h2 {
+  padding-left: 5%;
+  padding-top: 5%;
+}
+
+p {
+  padding-left: 5%;
+  padding-bottom: 7px;
+  height: inherit;
+  padding-right: 58%;
+  font-size: 1rem;
+}
+button {
+  background-color: rgb(243, 227, 227);
+  width: 10%;
+  margin-left: 5%;
+  margin-top: 0px;
+}
+
+.small {
+  padding: 10px;
+  overflow: hidden;
+  padding-left: 5%;
+  margin-bottom: 10%;
+  float: left;
+  width: 90%;
+  /* border: 1px solid red; */
+  height: 350px;
+  margin: auto;
+  display: flex;
+  margin-left: 5%;
+}
+.item1 {
+  width: 80%;
+  height: 100%;
+  background-color: lightgray;
+  padding-bottom: 10%;
+  margin-left: 5%;
+}
+.list {
+  width: 100%;
+}
+
+h3 {
+  text-align: center;
+}
+
+span {
+  text-align: justify;
+  padding-left: 8%;
+}
+
+.ft {
+  background-color: lightgray;
+  width: 90%;
+  height: 15%;
+  margin-top: 4%;
+  margin-left: 5%;
+  margin-bottom: 3%;
+  padding: 10px;
+  float: left;
+
+  flex-direction: row;
+  overflow: hidden;
+}
+#s {
+  padding: 0%;
+  display: inline;
+}
+#ls {
+  background-color: rgb(15, 134, 247);
+  color: white;
+  width: 25%;
+  font-size: 15px;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+input {
+  padding: 10px;
+}
+
+.maintemp1,
+.maintemp2,
+.maintemp3 {
+  width: 25%;
+  height: 280px;
+  /* border: 1px solid red; */
+  margin: 30px;
+  text-align: center;
+}
+.list {
+  background-color: lightgray;
+  height: 60%;
+  width: 100%;
+  align-items: center;
+}
+
+.lm {
+  color: black;
+  font-size: 15px;
+}
+#s {
+  margin-left: 15%;
+  margin-right: 2%;
+}
+#end {
+  overflow: hidden;
+  width: 90%;
+  margin-left: 5%;
+}
+#a {
+  float: left;
+  display: block;
+  padding-bottom: 15px;
+}
+#b {
+  float: right;
+}
+@media screen and (max-width: 680px) {
+  .small {
+    display: block;
+    height: 1000px;
+    margin-left: 0px;
+  }
+  .maintemp1,
+  .maintemp2,
+  .maintemp3 {
+    width: 100%;
+    margin: 25px;
+    margin-right: 10%;
+    text-align: center;
+  }
+
+  #s {
+    margin-left: 25%;
+  }
+}
